@@ -13,8 +13,8 @@ pip install -r requirements.txt
 ```
 
 #### Datasets
-For original COGS dataset, please download from <https://github.com/najoungkim/COGS> and
-copy all files into `data/sem`.
+For original COGS dataset, please download from <https://github.com/najoungkim/COGS> and put the data directory 
+in `data/`. 
 
 #### Run scripts
 
@@ -26,9 +26,9 @@ copy all files into `data/sem`.
 
 ./run_scripts/run_cogs_variants_BART.sh $RANDOM_SEED $DATADIR 
 
-# Example for training a BART model with random seed 0 on semantic 
-# (i.e. original) COGS task. 
-./run_scripts/run_cogs_variants_BART.sh 0 data/sem/ 
+# Example for training a BART model with random seed 0 on syntactic 
+#  COGS task. 
+./run_scripts/run_cogs_variants_BART.sh 0 data/syntax/ 
 
 # Train a T5 or BART model on QA-COGS and do evaluation on 
 # both test set and generalization set. 
