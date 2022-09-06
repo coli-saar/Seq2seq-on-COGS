@@ -1,5 +1,7 @@
 ### Seq2seq on COGS
 
+This repository is used to train T5 and BART on [COGS](https://www.aclweb.org/anthology/2020.emnlp-main.731/) datasets.
+
 #### Install
 
 ```shell
@@ -9,6 +11,10 @@ conda activate seq2seq_cogs
 
 pip install -r requirements.txt
 ```
+
+####Datasets
+For original COGS dataset, please download from <https://github.com/najoungkim/COGS> and
+copy all files into `data/sem`.
 
 #### Run scripts
 

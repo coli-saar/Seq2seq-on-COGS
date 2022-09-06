@@ -3,7 +3,7 @@ local patience = 10;
 local batch_size = 64;
 local cuda_device = 1;
 
-local file_prefix = "data/qa/all/";
+local file_prefix = "data/qa/";
 local model_name = 'facebook/bart-base';
 
 {
