@@ -72,7 +72,7 @@ local model_name = 'facebook/bart-base';
         validation_metric: "+acc",
         cuda_device: cuda_device,
         optimizer: {
-            type: "adam", # default lr 0.001
+            type: "huggingface_adamw",
             lr: 1e-4
         },
         callbacks: [{type: "tensorboard"}],

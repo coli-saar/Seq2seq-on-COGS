@@ -1,8 +1,8 @@
-### Seq2seq on COGS
+# Seq2seq on COGS
 
 This repository is used to train T5 and BART on [COGS](https://www.aclweb.org/anthology/2020.emnlp-main.731/) datasets.
 
-#### Install
+### Install
 
 ```shell
 conda create -n seq2seq_cogs python=3.7
@@ -12,11 +12,11 @@ conda activate seq2seq_cogs
 pip install -r requirements.txt
 ```
 
-#### Datasets
+### Datasets
 For original COGS dataset, please download from <https://github.com/najoungkim/COGS> and put the data directory 
-in `data/`. 
+in `data/`. Data of Syntax-COGS, POS-COGS and QA-COGS is available in <https://github.com/coli-saar/Syntax-COGS>.
 
-#### Run scripts
+### Run scripts
 
 ```shell
 # Train a T5 or BART model on semantic, syntactic or part-of-speech COGS 
